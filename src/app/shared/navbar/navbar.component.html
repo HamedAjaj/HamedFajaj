@@ -1,0 +1,17 @@
+<header class="header" style="margin-bottom: 150px;">
+    <div class="logo fs-1" style="font-weight: bold;"><span style="color: red;" class="text-muted">Hamed</span> F.Ajaj</div>
+    <div class="link-container">
+        <ul class="links open"[class.open]="isOpen">
+            <li><a href="#home">Home</a> </li>
+            <li><a href="#aboutme">About Me </a> </li>
+            <li><a href="#service"> Services</a> </li>
+            <li><a href="#projects"> Projects</a> </li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+        <button class="toggle-menu" [class.active]="isActive" (click)="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
